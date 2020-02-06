@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Page</title>
+</head>
+<body>
+	<form name="form" action="servcontrol.do" method="post">
+
+		CPF: </br> <input type="text" name="cpf"
+			pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+			title="Digite um CPF no formato: xxx.xxx.xxx-xx" required= /> </br> </br>
+		SENHA: </br> <input type="password" name="senha" title="Digite a senha."
+			required /> </br> </br> <input type="submit" value="Entrar" />
+
+	</form>
+</body>
+</html>
